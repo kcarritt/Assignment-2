@@ -1,0 +1,160 @@
+@font-face {
+    font-family: titleFont;
+    src: url("fonts/3Dumb/3Dumb.ttf");
+}
+@font-face {
+    font-family: mainFont;
+    src: url("fonts/rock-salt/RockSalt.ttf");
+}
+
+header img {
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+header p{
+	font-family: titleFont, arial, san-serif;
+	text-align: center;
+	font-size: 100px;
+	z-index: 1;
+	margin-top: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	font-family: titleFont, arial, san-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-right: 30px;
+	margin-left: 20%;
+}
+
+#help p {
+	font-family: titleFont, arial, san-serif;
+	font-size: 40px;
+	font-weight: bold;
+	border: 10px solid #bc3737;
+	text-align: center;
+	padding: 15px;
+	width: 3.5vw;
+	height: 3.5vw;
+	margin: 150px 45vw 0 45vw;
+}
+
+#current {
+	color: #bc3737;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #bc3737;
+}
+
+a:visited {
+	color: #000;
+}
+
+#quote {
+	font-family: mainFont, arial, san-serif;
+	font-size: 40px;
+	background: #7ea0d2;
+	border: 10px solid #bc3737;
+	text-align: center;
+	padding: 5px 15px;
+	margin: 30px 15vw 0 15vw;
+	width: 65vw;
+}
+
+#newSent input{
+	font-family: mainFont, arial, san-serif;
+	font-size: 40px;
+	border: 10px solid #bc3737;
+	text-align: center;
+	margin: 0 15vw 30px 15vw;
+	width: 67.2vw;
+}
+
+#helper {
+	font-family: mainFont, arial, san-serif;
+	background: #7ea0d2;
+	border: 10px solid #bc3737;
+	text-align: center;
+	padding: 5px 15px;
+	margin: 200px 15vw 0 15vw;
+	width: 65vw;
+}
+
+#helper h3 {
+	font-family: titleFont, arial, san-serif;
+}
+
+#stories {
+	font-family: mainFont, arial, san-serif;
+	background: #7ea0d2;
+	border: 10px solid #bc3737;
+	text-align: center;
+	padding: 5px 15px;
+	margin: 50px 15vw 0 15vw;
+	width: 65vw;
+}
+
+#stories h3 {
+	font-family: titleFont, arial, san-serif;
+}
+
+@media screen and (max-width: 1100px) {
+	header p {
+		font-size: 80px;
+	}
+	nav ul li {
+		margin-top: -20px;
+	}
+	#help p {
+		margin-top: 50px;
+	}
+	#quote, input {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	header p {
+		font-size: 60px;
+		margin-bottom: 0;
+	}
+	nav ul li {
+		margin-top: -80px;
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	nav ul {
+		margin-top: 100px;
+	}
+	nav ul li {
+		font-size: 20px;
+	}
+	#help p {
+		margin-top: 50px;
+		padding-bottom: 20px;
+	}
+	#quote, input {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	header p {
+		font-size: 30px;
+	}
+	nav ul li {
+		margin-left: 0;
+	}
+}
+
